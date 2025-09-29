@@ -45,9 +45,8 @@ Both designs are tested with Verilog testbenches and observed via waveforms.
 2. Depending on `parity_mode`:
    - **Even mode (`0`)** → parity bit = XOR result  
    - **Odd mode (`1`)** → parity bit = inverted XOR result  
-
-Formula:  Even parity = D0 ⊕ D1 ⊕ D2 ⊕ D3
-  Odd parity  = ¬(D0 ⊕ D1 ⊕ D2 ⊕ D3)
+Formula: Even parity = D0 ⊕ D1 ⊕ D2 ⊕ D3
+Odd parity  = ¬(D0 ⊕ D1 ⊕ D2 ⊕ D3)
 
 ---
 
