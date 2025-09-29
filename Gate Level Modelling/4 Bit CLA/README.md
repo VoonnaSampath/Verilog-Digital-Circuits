@@ -31,13 +31,12 @@ The CLA testbench checks:
 
 ## ⚙️ How the CLA Works
 Carry Lookahead Logic:Generate: Gi = Ai · Bi
-
 Propagate: Pi = Ai ⊕ Bi
-
 C1 = G0 + P0·Cin
 C2 = G1 + P1·G0 + P1·P0·Cin
 C3 = G2 + P2·G1 + P2·P1·G0 + P2·P1·P0·Cin
 C4 = G3 + P3·G2 + P3·P2·G1 + P3·P2·P1·G0 + P3·P2·P1·P0·Cin
+
 Sum is computed as: Si = Pi ⊕ Ci
 
 This parallel carry computation reduces the delay compared to ripple-carry adders.
