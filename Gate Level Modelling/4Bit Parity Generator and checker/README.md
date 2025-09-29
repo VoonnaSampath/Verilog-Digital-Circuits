@@ -47,7 +47,8 @@ Both designs are tested with Verilog testbenches and observed via waveforms.
    - **Odd mode (`1`)** → parity bit = inverted XOR result  
 
 Formula:  Even parity = D0 ⊕ D1 ⊕ D2 ⊕ D3 
-    Odd parity  = ¬(D0 ⊕ D1 ⊕ D2 ⊕ D3)
+Odd parity  = ¬(D0 ⊕ D1 ⊕ D2 ⊕ D3)
+
 ---
 
 ### 🔹 Parity Checker
@@ -57,7 +58,7 @@ Formula:  Even parity = D0 ⊕ D1 ⊕ D2 ⊕ D3
    If they differ → `error = 1` (error detected).  
 
 Formula:  Expected parity = (D0 ⊕ D1 ⊕ D2 ⊕ D3) ⊕ parity_mode
-    Error = ReceivedParity ⊕ ExpectedParity
+Error = ReceivedParity ⊕ ExpectedParity
 ---
 
 ## 🔗 Simulation
