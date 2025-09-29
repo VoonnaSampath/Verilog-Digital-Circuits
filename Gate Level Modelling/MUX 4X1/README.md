@@ -18,7 +18,7 @@ This project demonstrates the implementation of a **4-to-1 Multiplexer (MUX)** u
 ## 📂 Files Included
 - `mux4X1.v` – Verilog source code for 4x1 MUX
 - `mux4X1_tb.v` – Verilog testbench for the MUX
-- `mux4X1.png` – Exported waveform screenshot
+- `mux4X1_waveform.png` – Exported waveform screenshot
 - `README.md` – Documentation for this module
 
 ## 🔗 Simulation
@@ -49,7 +49,7 @@ With `I = 1010`:
 ---
 
 ## 🖼 Waveform
-![MUX Waveform](mux_waveform.png)
+![MUX Waveform](mux4X1_waveform.png)
 
 ---
 
