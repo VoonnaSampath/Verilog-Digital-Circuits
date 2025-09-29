@@ -31,6 +31,7 @@ The CLA testbench checks:
 
 ## ⚙️ How the CLA Works
 Carry Lookahead Logic:Generate: Gi = Ai · Bi
+
 Propagate: Pi = Ai ⊕ Bi
 
 C1 = G0 + P0·Cin
