@@ -1,4 +1,4 @@
-module mmux(out,s,i);
+module mux(out,s,i);
 input [3:0] i;
 input [1:0] s;
 output out;
