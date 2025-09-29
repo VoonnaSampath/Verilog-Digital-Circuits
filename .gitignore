@@ -1,0 +1,26 @@
+# Ignore simulation outputs
+*.out
+*.vcd
+*.wlf
+*.log
+
+# Ignore synthesis/project files (common in FPGA/EDA tools)
+*.jou
+*.str
+*.rpt
+*.ncd
+*.ngd
+*.edf
+*.bgn
+
+# Ignore backup files
+*.bak
+*~
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
