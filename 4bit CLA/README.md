@@ -51,9 +51,8 @@ This parallel carry computation reduces the delay compared to ripple-carry adder
 
 | A    | B    | Cin | Sum   | Cout |
 |------|------|-----|-------|------|
-| 0101 | 0011 | 0   | 1000  | 0    |
-| 1111 | 0001 | 0   | 0000  | 1    |
-| 1010 | 1010 | 1   | 0101  | 1    |
+| 0011 | 0111 | 1   | 1011  | 0    |
+| 0111 | 1010 | 0   | 0001  | 1    |
 
 ---
 

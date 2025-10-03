@@ -27,11 +27,10 @@ Both designs are tested with Verilog testbenches and observed via waveforms.
 
 ## 📂 Files Included
 - `4bitparitygen.v` – Verilog design for parity generator  
-- `4bitparitygenerator_tb.v` – Testbench for parity generator  
+- `4bitparitygen_tb.v` – Testbench for parity generator  
 - `4bitparitycheck.v` – Verilog design for parity checker  
 - `4bitparitycheck_tb.v` – Testbench for parity checker  
-- `parity_waveform.fsdb` – Waveform dump file (Verdi)  
-- `parity_waveform.png` – Simulation waveform screenshot  
+- `4bitparity_waveform.png` – Simulation waveform screenshot  
 - `README.md` – Documentation for this module  
 
 ---
@@ -89,7 +88,7 @@ From `4bitparitycheck_tb.v`:
 ---
 
 ## 🖼 Waveform
-![Parity Generator & Checker Waveform](parity_waveform.png)
+![Parity Generator & Checker Waveform](4bitparity_waveform.png)
 
 ---
 

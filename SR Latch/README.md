@@ -28,7 +28,6 @@ The design is tested with a Verilog testbench and verified using waveform simula
 ## 📂 Files Included
 - `srlatch.v` – Verilog design of NAND SR latch  
 - `srlatch_tb.v` – Testbench for SR latch  
-- `srlatch_waveform.fsdb` – Waveform dump file  
 - `srlatch_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 

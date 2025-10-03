@@ -25,7 +25,6 @@ The design is tested with a Verilog testbench and observed with waveform simulat
 ## 📂 Files Included
 - `priorityencoder4bit.v` – Verilog source code of the 4-bit priority encoder  
 - `priorityencoder4bit_tb.v` – Testbench for the priority encoder  
-- `priorityencoder_waveform.fsdb` – Simulation waveform file (Verdi format)  
 - `priorityencoder_waveform.png` – Screenshot of waveform  
 - `README.md` – Documentation for this module  
 
