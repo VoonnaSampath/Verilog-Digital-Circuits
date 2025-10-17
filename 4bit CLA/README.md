@@ -57,8 +57,7 @@ This parallel carry computation reduces the delay compared to ripple-carry adder
 ---
 
 ## 🖼 Waveform
-![CLA Waveform](cla4_waveform.png)
-
+![CLA Waveform](cla4_waveform_gatelevel.png)
 ---
 
 ## 🛠 Tools Used
