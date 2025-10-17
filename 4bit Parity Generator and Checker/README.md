@@ -88,7 +88,7 @@ From `4bitparitycheck_tb.v`:
 ---
 
 ## 🖼 Waveform
-![Parity Generator & Checker Waveform](4bitparity_waveform.png)
+![Parity Generator Gate level Waveform](4bitparity_waveform_gatelevel.png)
 
 ---
 
