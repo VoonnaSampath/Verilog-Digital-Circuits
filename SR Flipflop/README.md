@@ -62,7 +62,7 @@ From `srff_tb.v`:
 ## 🛠 Tools Used
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

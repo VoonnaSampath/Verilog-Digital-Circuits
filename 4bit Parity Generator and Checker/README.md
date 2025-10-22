@@ -95,7 +95,7 @@ From `4bitparitycheck_tb.v`:
 ## 🛠 Tools Used
 - **Verilog** – RTL design and testbenches  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

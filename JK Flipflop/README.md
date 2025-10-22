@@ -57,7 +57,7 @@ The JK flip-flop is a clocked memory device with two inputs (J and K) that can p
 ## 🛠 Tools Used
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

@@ -54,7 +54,7 @@ The D (Data/Delay) flip-flop is a clocked memory element that captures the value
 ## 🛠 Tools Used
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

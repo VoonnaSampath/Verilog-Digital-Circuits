@@ -63,7 +63,7 @@ This parallel carry computation reduces the delay compared to ripple-carry adder
 ## 🛠 Tools Used
 - **Verilog** – CLA design and testbench
 - **Verdi** – Waveform visualization (`fsdbDumpvars`)
-- **Icarus Verilog / VCS / ModelSim** – For simulation
+- **VCS** – For simulation
 
 ---
 

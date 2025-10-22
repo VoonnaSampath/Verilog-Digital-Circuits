@@ -57,7 +57,7 @@ With `I = 1010`:
 ## 🛠 Tools Used
 - **Verilog** – Design & testbench
 - **Verdi** – Waveform visualization (`fsdbDumpvars`)
-- **Icarus Verilog / VCS / ModelSim** – For simulation
+- **VCS** – For simulation
 
 ---
 
