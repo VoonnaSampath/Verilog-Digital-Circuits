@@ -50,7 +50,8 @@ With `I = 1010`:
 ---
 
 ## 🖼 Waveform
-![MUX Waveform](mux_waveform.png)
+![MUX Gate level Waveform](mux4X1_gatelevel.png)
+![MUX Behavioural Waveform](mux4X1_behavioural.png)
 
 ---
 
