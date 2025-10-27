@@ -1,6 +1,7 @@
 # 4-bit Priority Encoder – Verilog
 
 ## 🧠 Project Overview
+
 This project implements a **4-bit priority encoder** in Verilog using gate-level modeling.  
 A priority encoder outputs the binary representation of the **highest-priority active input**. If no input is active, the `valid` signal indicates that the output is invalid.  
 
@@ -9,6 +10,7 @@ The design is tested with a Verilog testbench and observed with waveform simulat
 ---
 
 ## ✅ Key Features
+
 - **Functionality**:
   - Encodes 4 input lines (`i3, i2, i1, i0`) into a 2-bit binary output (`y1, y0`)
   - Priority: `i3 > i2 > i1 > i0`
@@ -23,6 +25,7 @@ The design is tested with a Verilog testbench and observed with waveform simulat
 ---
 
 ## 📂 Files Included
+
 - `priorityencoder4bit.v` – Verilog source code of the 4-bit priority encoder  
 - `priorityencoder4bit_tb.v` – Testbench for the priority encoder  
 - `priorityencoder_waveform.png` – Screenshot of waveform  
@@ -31,6 +34,7 @@ The design is tested with a Verilog testbench and observed with waveform simulat
 ---
 
 ## ⚙️ How It Works
+
 1. The encoder checks the inputs from **highest priority (i3)** to **lowest (i0)**.  
 2. The binary code for the highest active input is placed on outputs `y1 y0`.  
 3. The `valid` signal is asserted high when any input is active.  
@@ -44,6 +48,7 @@ valid = i3 + i2 + i1 + i0
 ---
 
 ## 📊 Test Bench Simulation Output
+
 From `priorityencoder4bit_tb.v`:
 
 | i3 | i2 | i1 | i0 | y1 | y0 | valid |
@@ -57,11 +62,15 @@ From `priorityencoder4bit_tb.v`:
 ---
 
 ## 🖼 Waveform
+
 ![Priority Encoder Gate level Waveform](priorityencoder_gatelevel.png)
+
 ![Priority Encoder Behavioral Waveform](priorityencoder_behavioral.png)
+
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  
