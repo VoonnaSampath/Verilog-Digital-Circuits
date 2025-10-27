@@ -179,7 +179,7 @@ From `alu_tb.v` (simulated using **Synopsys VCS**):
 
 ---
 
-## ⚙️ Complete ALU Simulation (`alu.v`)
+### ⚙️ Complete ALU Simulation (`alu.v`)
 
 | a | b | cin | sel | Operation | y | cout |
 |----|----|----|----|------------|----|------|
