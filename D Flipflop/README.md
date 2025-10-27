@@ -1,12 +1,14 @@
 # D Flip-Flop – Verilog
 
 ## 🧠 Project Overview
+
 This project implements a **D flip-flop** in Verilog.  
 The D (Data/Delay) flip-flop is a clocked memory element that captures the value of the input `D` on the rising edge of the clock and stores it until the next clock edge.
 
 ---
 
 ## ✅ Key Features
+
 - **Functionality**:
   - `Q` follows `D` on clock edge
   - Holds the stored value between clock events
@@ -20,6 +22,7 @@ The D (Data/Delay) flip-flop is a clocked memory element that captures the value
 ---
 
 ## 📂 Files Included
+
 - `dff.v` – Verilog design of D flip-flop  
 - `dff_tb.v` – Testbench for D flip-flop  
 - `dff_waveform.fsdb` – Waveform dump file  
@@ -29,6 +32,7 @@ The D (Data/Delay) flip-flop is a clocked memory element that captures the value
 ---
 
 ## ⚙️ How It Works
+
 1. On the **positive clock edge**, `Q` takes the value of `D`.  
 2. Between clock edges, `Q` retains its stored value.  
 3. `Qn` always represents the inverted value of `Q`.  
@@ -47,12 +51,16 @@ The D (Data/Delay) flip-flop is a clocked memory element that captures the value
 ---
 
 ## 🖼 Waveform
+
+**D Flip-Flop Gate level Waveform**
 ![D Flip-Flop Gate level Waveform](dff_gatelevel.png)
+**D Flip-Flop Behavioral Waveform**
 ![D Flip-Flop Behavioral Waveform](dff_behav.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  

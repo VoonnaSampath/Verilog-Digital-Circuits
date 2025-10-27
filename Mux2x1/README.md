@@ -1,7 +1,9 @@
 # 2x1 Multiplexer (MUX) – Verilog
 
 ## 🧠 Project Overview
+
 This project implements a **2x1 Multiplexer (MUX)** using **three different modeling styles** in Verilog:
+
 1. Behavioral modeling with `if-else`
 2. Behavioral modeling with `case` statement
 3. Gate-level modeling using basic logic gates  
@@ -11,6 +13,7 @@ A 2x1 MUX selects one of two inputs (`a` or `b`) based on a **select line (`sel`
 ---
 
 ## ✅ Key Features
+
 - Implements **three styles** of MUX design:
   - **If-Else** (Behavioral)
   - **Case** (Behavioral)
@@ -24,6 +27,7 @@ A 2x1 MUX selects one of two inputs (`a` or `b`) based on a **select line (`sel`
 ---
 
 ## 📂 Files Included
+
 - `mux2x1_ifelse.v` – Design using `if-else`
 - `mux2x1_ifelse_tb.v` – Testbench for `if-else` design  
 - `mux2x1_case.v` – Design using `case` statement  
@@ -36,6 +40,7 @@ A 2x1 MUX selects one of two inputs (`a` or `b`) based on a **select line (`sel`
 ---
 
 ## ⚙️ How a 2x1 MUX Works
+
 A **2x1 multiplexer** passes one of the two input signals to the output based on the select line:
 
 | `sel` | Output `y` |
@@ -44,14 +49,19 @@ A **2x1 multiplexer** passes one of the two input signals to the output based on
 | 1     | `b`         |
 
 Essentially,  
+
 y = (sel) ? b : a
+
 ---
 
 ## 🧩 Design 1: If-Else Modeling
+
 ### 📘 Design File: `mux2x1_ifelse.v`
+
 Implements MUX behavior using `if-else` inside an `always` block.
 
 ### 🧪 Testbench Output
+
 | SEL | A | B | Y |
 |-----|---|---|---|
 | 0 | 0 | 0 | 0 |
@@ -66,10 +76,13 @@ Implements MUX behavior using `if-else` inside an `always` block.
 ---
 
 ## 🧩 Design 2: Case Statement Modeling
+
 ### 📘 Design File: `mux2x1_case.v`
+
 Implements MUX behavior using `case` selection.
 
-### 🧪 Testbench Output
+### 🧪 Testbench Outputs
+
 | SEL | A | B | Y |
 |-----|---|---|---|
 | 0 | 0 | 0 | 0 |
@@ -84,10 +97,14 @@ Implements MUX behavior using `case` selection.
 ---
 
 ## 🧩 Design 3: Gate-Level Modeling
+
 ### 📘 Design File: `mux2x1_gate.v`
+
 Implements MUX function using **basic logic gates (AND, OR, NOT)**:
 y = (a & ~sel) | (b & sel)
-### 🧪 Testbench Output
+
+### 🧪 Testbench's Output
+
 | SEL | A | B | Y |
 |-----|---|---|---|
 | 0 | 0 | 0 | 0 |
@@ -102,11 +119,14 @@ y = (a & ~sel) | (b & sel)
 ---
 
 ## 🖼 Waveform
+
+**2x1 MUX  Waveform**
 ![2x1 MUX  Waveform](mux2x1_waveform.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbenches  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **Icarus Verilog / VCS / ModelSim** – Simulation  

@@ -1,6 +1,7 @@
 # ➕ 4-Bit Full Adder – Verilog
 
 ## 🧠 Project Overview
+
 This project implements a **4-bit Ripple Carry Full Adder** using Verilog.  
 It is built using **four instances of a 1-bit Full Adder (`fa`)** connected in series.  
 The adder takes two 4-bit inputs (`A`, `B`) and a carry-in (`Cin`), and produces a 4-bit sum (`Sum`) and a carry-out (`Cout`).
@@ -10,6 +11,7 @@ This design demonstrates the **ripple carry adder concept**, where the carry-out
 ---
 
 ## ✅ Key Features
+
 - **Functionality**:
   - Adds two 4-bit binary numbers (`A` and `B`) with an optional `Cin`.  
   - Produces a 4-bit `Sum` and a final carry-out (`Cout`).  
@@ -24,6 +26,7 @@ This design demonstrates the **ripple carry adder concept**, where the carry-out
 ---
 
 ## 📂 Files Included
+
 - `fa.v` – Verilog design of **1-bit full adder** (used as building block)  
 - `adder4.v` – Verilog design of **4-bit ripple carry adder**  
 - `adder4_tb.v` – Testbench for 4-bit full adder  
@@ -33,6 +36,7 @@ This design demonstrates the **ripple carry adder concept**, where the carry-out
 ---
 
 ## ⚙️ How It Works
+
 1. **1-bit Full Adder (`fa`)**:
    - `Sum = (A ^ B) ^ Cin`  
    - `Cout = (A & B) | ((A ^ B) & Cin)`  
@@ -59,12 +63,14 @@ From `adder4_tb.v`:
 ---
 
 ## 🖼 Waveform
+
+**4-Bit Full Adder Gatelevel Waveform**
 ![4-Bit Full Adder Gatelevel Waveform](adder_gatelevel.png)
-![4-Bit Full Adder Behavioral Waveform](adder_behavioral.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  

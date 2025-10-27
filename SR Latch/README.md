@@ -1,6 +1,7 @@
 # SR Latch (NAND-based) – Verilog
 
 ## 🧠 Project Overview
+
 This project implements an **SR latch** using **NAND gates** in Verilog.  
 The SR (Set-Reset) latch is a fundamental memory element that stores 1 bit of data.  
 It has two inputs: **Set (S)** and **Reset (R)**, and two outputs: **Q** and **Qn (complement)**.  
@@ -10,6 +11,7 @@ The design is tested with a Verilog testbench and verified using waveform simula
 ---
 
 ## ✅ Key Features
+
 - **Functionality**:
   - Stores 1 bit of state
   - Set (`S=1, R=0`) → `Q=1, Qn=0`
@@ -26,6 +28,7 @@ The design is tested with a Verilog testbench and verified using waveform simula
 ---
 
 ## 📂 Files Included
+
 - `srlatch.v` – Verilog design of NAND SR latch  
 - `srlatch_tb.v` – Testbench for SR latch  
 - `srlatch_waveform.png` – Screenshot of simulation waveform  
@@ -34,6 +37,7 @@ The design is tested with a Verilog testbench and verified using waveform simula
 ---
 
 ## ⚙️ How It Works
+
 1. Two **cross-coupled NAND gates** are used.  
 2. The latch maintains its state until inputs change.  
 3. The **feedback loop** ensures memory storage.  
@@ -42,6 +46,7 @@ The design is tested with a Verilog testbench and verified using waveform simula
 ---
 
 ## 📊 Testbench Simulation Output
+
 From `srlatch_tb.v`:
 
 | S | R | Q | Qn |
@@ -55,11 +60,13 @@ From `srlatch_tb.v`:
 ---
 
 ## 🖼 Waveform
+
 ![SR Latch Waveform](srlatch_waveform.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  

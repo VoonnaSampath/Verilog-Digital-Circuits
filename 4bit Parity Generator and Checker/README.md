@@ -1,8 +1,10 @@
 # 4-bit Parity Generator and Checker – Verilog
 
 ## 🧠 Project Overview
+
 This project implements a **4-bit parity generator** and a **4-bit parity checker** in Verilog.  
-- The **generator** creates even or odd parity for a 4-bit data word.  
+
+- The **generator** creates even or odd parity for a 4-bit data word.
 - The **checker** verifies the received data with the parity bit and flags an error if there is a mismatch.  
 
 Both designs are tested with Verilog testbenches and observed via waveforms.
@@ -10,6 +12,7 @@ Both designs are tested with Verilog testbenches and observed via waveforms.
 ---
 
 ## ✅ Key Features
+
 - **Parity Generator**:
   - Generates even (`parity_mode = 0`) or odd (`parity_mode = 1`) parity bit
 - **Parity Checker**:
@@ -26,6 +29,7 @@ Both designs are tested with Verilog testbenches and observed via waveforms.
 ---
 
 ## 📂 Files Included
+
 - `4bitparitygen.v` – Verilog design for parity generator  
 - `4bitparitygen_tb.v` – Testbench for parity generator  
 - `4bitparitycheck.v` – Verilog design for parity checker  
@@ -38,6 +42,7 @@ Both designs are tested with Verilog testbenches and observed via waveforms.
 ## ⚙️ How It Works
 
 ### 🔹 Parity Generator
+
 1. The generator XORs all four input data bits.  
    - If the result = `0`, data already has even parity.  
    - If the result = `1`, data has odd parity.  
@@ -52,18 +57,22 @@ Odd parity  = ¬(D0 ⊕ D1 ⊕ D2 ⊕ D3)
 ---
 
 ### 🔹 Parity Checker
+
 1. The checker recalculates expected parity from the data using the same XOR method.  
 2. It compares the **received parity bit** with the **expected parity**.  
 3. If both match → `error = 0` (no error).  
    If they differ → `error = 1` (error detected).  
 
 Formula:  Expected parity = (D0 ⊕ D1 ⊕ D2 ⊕ D3) ⊕ parity_mode
+
 Error = ReceivedParity ⊕ ExpectedParity
+
 ---
 
 ## 🔗 Simulation
 
 ### Generator Testbench Output
+
 From `4bitparitygenerator_tb.v`:
 
 | Data (`data`) | Mode (`parity_mode`) | Parity (Output) |
@@ -76,6 +85,7 @@ From `4bitparitygenerator_tb.v`:
 ---
 
 ### Checker Testbench Output
+
 From `4bitparitycheck_tb.v`:
 
 | Data (`data`) | Mode (`parity_mode`) | Received Parity (`parity`) | Error (Output) |
@@ -88,11 +98,14 @@ From `4bitparitycheck_tb.v`:
 ---
 
 ## 🖼 Waveform
+
+**Parity Generator Gate level Waveform**
 ![Parity Generator Gate level Waveform](4bitparity_waveform_gatelevel.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbenches  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  

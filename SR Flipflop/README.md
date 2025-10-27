@@ -1,6 +1,7 @@
 # SR Flip-Flop – Verilog
 
 ## 🧠 Project Overview
+
 This project implements an **SR (Set-Reset) flip-flop** in Verilog.  
 The SR flip-flop is a clocked memory element built from SR latches.  
 It stores **1 (Set)**, **0 (Reset)**, or **retains its state (Hold)** depending on inputs, but has an **invalid condition** when both `S` and `R` are active simultaneously.
@@ -8,6 +9,7 @@ It stores **1 (Set)**, **0 (Reset)**, or **retains its state (Hold)** depending 
 ---
 
 ## ✅ Key Features
+
 - **Functionality**:
   - S=0, R=0 → Hold (retain state)
   - S=1, R=0 → Set (Q=1)
@@ -24,6 +26,7 @@ It stores **1 (Set)**, **0 (Reset)**, or **retains its state (Hold)** depending 
 ---
 
 ## 📂 Files Included
+
 - `srff.v` – Verilog design of SR flip-flop  
 - `srff_tb.v` – Testbench for SR flip-flop  
 - `srff_waveform.fsdb` – Waveform dump file  
@@ -33,6 +36,7 @@ It stores **1 (Set)**, **0 (Reset)**, or **retains its state (Hold)** depending 
 ---
 
 ## ⚙️ How It Works
+
 1. When **S=1 and R=0**, the output is **Set (Q=1)**.  
 2. When **S=0 and R=1**, the output is **Reset (Q=0)**.  
 3. When **S=0 and R=0**, the flip-flop **retains its previous state**.  
@@ -55,11 +59,14 @@ From `srff_tb.v`:
 ---
 
 ## 🖼 Waveform
+
+**SR Flip-Flop Waveform**
 ![SR Flip-Flop Waveform](srff_waveform.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  

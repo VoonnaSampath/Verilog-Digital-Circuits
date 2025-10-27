@@ -1,6 +1,7 @@
 # T Flip-Flop – Verilog
 
 ## 🧠 Project Overview
+
 This project implements a **T (Toggle) flip-flop** in Verilog.  
 The T flip-flop toggles its output on every clock edge if `T=1`.  
 If `T=0`, it retains its current state.
@@ -8,6 +9,7 @@ If `T=0`, it retains its current state.
 ---
 
 ## ✅ Key Features
+
 - **Functionality**:
   - T=0 → Hold state
   - T=1 → Toggle output
@@ -21,6 +23,7 @@ If `T=0`, it retains its current state.
 ---
 
 ## 📂 Files Included
+
 - `tff.v` – Verilog design of T flip-flop  
 - `tff_tb.v` – Testbench for T flip-flop  
 - `tff_waveform.fsdb` – Waveform dump file  
@@ -30,6 +33,7 @@ If `T=0`, it retains its current state.
 ---
 
 ## ⚙️ How It Works
+
 1. The T flip-flop is derived from the JK flip-flop (by tying J=K=T).  
 2. On every rising edge of the clock:
    - If T=1 → `Q` toggles.
@@ -50,11 +54,14 @@ If `T=0`, it retains its current state.
 ---
 
 ## 🖼 Waveform
+
+**T Flip-Flop Waveform**
 ![T Flip-Flop Waveform](tff.png)
 
 ---
 
 ## 🛠 Tools Used
+
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
 - **VCS** – Simulation  
