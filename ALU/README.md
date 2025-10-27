@@ -199,7 +199,7 @@ From `alu_tb.v` (simulated using **Synopsys VCS**):
 
 - **Verilog HDL** – RTL design and testbench development  
 - **Synopsys VCS** – Simulation and output verification  
-- **GTKWave / VCS DVE** – Waveform viewing (optional)
+- **Verdi** – Waveform viewing (optional)
 
 ---
 
