@@ -21,7 +21,6 @@ This project implements a **4-bit Carry Lookahead Adder (CLA)** in Verilog and v
 
 - `cla4.v` – Verilog source code of the 4-bit CLA
 - `cla4_tb.v` – Testbench for the CLA
-- `cla4_waveform.fsdb` – Simulation waveform file (Verdi format)
 - `cla4_waveform.png` – Exported waveform screenshot
 - `README.md` – Documentation for this module
 

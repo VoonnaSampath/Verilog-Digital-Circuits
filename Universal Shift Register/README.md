@@ -76,7 +76,7 @@ From `tb_universal_shift_register.v`:
 
 - **Verilog HDL** – Design and simulation  
 - **Verdi** – Waveform analysis (`$fsdbDumpvars`)  
-- **Icarus Verilog / ModelSim / VCS** – Simulation execution  
+- **VCS** – Simulation execution  
 
 ---
 

@@ -129,7 +129,7 @@ y = (a & ~sel) | (b & sel)
 
 - **Verilog** – RTL design and testbenches  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

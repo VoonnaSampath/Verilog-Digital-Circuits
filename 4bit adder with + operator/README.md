@@ -23,7 +23,6 @@ The adder performs binary addition of two 4-bit inputs (`A` and `B`) using the *
 
 - `adder_4bit.v` – Verilog design of 4-bit adder  
 - `adder_4bit_tb.v` – Testbench for 4-bit adder  
-- `adder_4bit_waveform.fsdb` – Waveform dump file (Verdi)  
 - `adder_4bit_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 
@@ -65,7 +64,7 @@ From `adder_4bit_tb.v`:
 
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

@@ -82,7 +82,7 @@ From `tb_johnson_counter.v`:
 
 - **Verilog HDL** – RTL design and testbench development  
 - **Verdi** – Waveform analysis (`$fsdbDumpvars`)  
-- **Icarus Verilog / ModelSim / VCS** – Simulation execution  
+- **VCS** – Simulation execution  
 
 ---
 

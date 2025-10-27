@@ -25,7 +25,6 @@ The D (Data/Delay) flip-flop is a clocked memory element that captures the value
 
 - `dff.v` – Verilog design of D flip-flop  
 - `dff_tb.v` – Testbench for D flip-flop  
-- `dff_waveform.fsdb` – Waveform dump file  
 - `dff_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 

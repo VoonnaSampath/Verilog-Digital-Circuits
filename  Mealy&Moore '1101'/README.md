@@ -29,7 +29,6 @@ Both versions are synchronous and use a clocked **D Flip-Flop (DFF)** for state 
 - `dff.v` – D Flip-Flop design file  
 - `mealymoore1101.v` – Contains both Mealy and Moore FSMs  
 - `mealymoore1101_tb.v` – Testbench for both FSMs  
-- `fsm_1101_waveform.fsdb` – Verdi waveform dump file  
 - `fsm_1101_waveform.png` – Waveform screenshot  
 - `README.md` – Documentation file  
 
@@ -83,7 +82,7 @@ From `mealymoore1101_tb.v` — for the input pattern `"0011011101"`:
 
 - **Verilog HDL** – FSM design  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

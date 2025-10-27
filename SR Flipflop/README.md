@@ -29,7 +29,6 @@ It stores **1 (Set)**, **0 (Reset)**, or **retains its state (Hold)** depending 
 
 - `srff.v` – Verilog design of SR flip-flop  
 - `srff_tb.v` – Testbench for SR flip-flop  
-- `srff_waveform.fsdb` – Waveform dump file  
 - `srff_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 

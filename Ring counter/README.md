@@ -69,7 +69,7 @@ From `tb_ring_counter.v`:
 
 - **Verilog HDL** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / ModelSim / VCS** – Simulation execution  
+- **VCS** – Simulation execution  
 
 ---
 

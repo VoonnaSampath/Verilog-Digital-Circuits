@@ -27,7 +27,6 @@ It is a **synchronous counter**, where all flip-flops are triggered by the same 
 - `tff.v` – Verilog design for T Flip-Flop  
 - `mod6counter.v` – Verilog design for MOD-6 Counter  
 - `mod6_counter_tb.v` – Testbench for MOD-6 Counter  
-- `mod6counter_waveform.fsdb` – Waveform dump file (Verdi)  
 - `mod6counter_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 
@@ -81,7 +80,7 @@ From `mod6_counter_tb.v`:
 
 - **Verilog** – RTL and structural design  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

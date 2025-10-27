@@ -27,7 +27,6 @@ The multiplier is built by **generating partial products** using AND gates and t
 - `fa.v` – Verilog design of Full Adder  
 - `array4x4multiplier.v` – Verilog design of 4x4 Array Multiplier  
 - `array4x4multiplier_tb.v` – Testbench for the multiplier  
-- `array4x4multiplier_waveform.fsdb` – Waveform dump file (Verdi)  
 - `array4x4multiplier_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 
@@ -75,7 +74,7 @@ From `array4x4multiplier_tb.v`:
 
 - **Verilog** – RTL design and hierarchical modeling  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 

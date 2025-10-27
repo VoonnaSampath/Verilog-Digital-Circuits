@@ -29,7 +29,6 @@ This is a basic building block for multi-bit binary adders and arithmetic circui
 
 - `fa.v` – Verilog design of 1-bit full adder  
 - `fa_tb.v` – Testbench for full adder  
-- `fa_waveform.fsdb` – Waveform dump file (optional)  
 - `fa_waveform.png` – Screenshot of simulation waveform (optional)  
 - `README.md` – Documentation for this module  
 

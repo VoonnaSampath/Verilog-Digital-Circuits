@@ -25,7 +25,6 @@ The design supports **right shifting** by 0, 1, 2, or 3 positions, controlled by
 - `mux2.v` – 2x1 Multiplexer module  
 - `barrel_shifter_4bit.v` – 4-bit Barrel Shifter design  
 - `barrel_shifter_4bit_tb.v` – Testbench for Barrel Shifter  
-- `barrel_shifter_waveform.fsdb` – Waveform dump file (Verdi)  
 - `barrel_shifter_waveform.png` – Simulation waveform screenshot  
 - `README.md` – Documentation for this module  
 

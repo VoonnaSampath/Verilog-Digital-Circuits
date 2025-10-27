@@ -28,7 +28,6 @@ The JK flip-flop is a clocked memory device with two inputs (J and K) that can p
 
 - `jkff.v` – Verilog design of JK flip-flop  
 - `jkff_tb.v` – Testbench for JK flip-flop  
-- `jkff_waveform.fsdb` – Waveform dump file  
 - `jkff_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 

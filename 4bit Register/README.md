@@ -66,7 +66,7 @@ From `tb_register_4bit.v`:
 
 - **Verilog HDL** – RTL design and simulation  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / ModelSim / VCS** – Testbench simulation  
+- **VCS** – Testbench simulation  
 
 ---
 

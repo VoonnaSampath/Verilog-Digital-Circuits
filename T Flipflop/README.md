@@ -26,7 +26,6 @@ If `T=0`, it retains its current state.
 
 - `tff.v` – Verilog design of T flip-flop  
 - `tff_tb.v` – Testbench for T flip-flop  
-- `tff_waveform.fsdb` – Waveform dump file  
 - `tff_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 

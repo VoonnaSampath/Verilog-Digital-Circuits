@@ -23,7 +23,6 @@ For invalid BCD inputs (A–F), a dash (`-`) pattern is displayed.
 
 - `bcd_to_7seg.v` – Verilog design for BCD to 7-segment decoder  
 - `bcd_to_7seg_tb.v` – Testbench for the decoder  
-- `bcd_to_7seg_waveform.fsdb` – Waveform dump file (Verdi)  
 - `bcd_to_7seg_waveform.png` – Simulation waveform screenshot  
 - `README.md` – Documentation for this module  
 
@@ -80,7 +79,7 @@ From `tb_bcd_to_7seg.v`:
 
 - **Verilog** – RTL design and testbench  
 - **Verdi** – Waveform visualization (`$fsdbDumpvars`)  
-- **Icarus Verilog / VCS / ModelSim** – Simulation  
+- **VCS** – Simulation  
 
 ---
 
