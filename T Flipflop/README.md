@@ -50,7 +50,7 @@ If `T=0`, it retains its current state.
 ---
 
 ## 🖼 Waveform
-![T Flip-Flop Waveform](tff_waveform.png)
+![T Flip-Flop Waveform](tff.png)
 
 ---
 

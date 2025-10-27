@@ -47,7 +47,8 @@ The D (Data/Delay) flip-flop is a clocked memory element that captures the value
 ---
 
 ## 🖼 Waveform
-![D Flip-Flop Waveform](dff_waveform.png)
+![D Flip-Flop Gate level Waveform](dff_gatelevel.png)
+![D Flip-Flop Behavioral Waveform](dff_behav.png)
 
 ---
 

@@ -57,8 +57,8 @@ From `priorityencoder4bit_tb.v`:
 ---
 
 ## 🖼 Waveform
-![Priority Encoder Gate level Waveform](priorityencoder_waveform_gatelevel.png)
-
+![Priority Encoder Gate level Waveform](priorityencoder_gatelevel.png)
+![Priority Encoder Behavioral Waveform](priorityencoder_behavioral.png)
 ---
 
 ## 🛠 Tools Used

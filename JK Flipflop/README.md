@@ -50,7 +50,8 @@ The JK flip-flop is a clocked memory device with two inputs (J and K) that can p
 ---
 
 ## 🖼 Waveform
-![JK Flip-Flop Waveform](jkff_waveform.png)
+![JK Flip-Flop Gatelevel Waveform](jkff_gatelevel.png)
+![JK Flip-Flop Behavioral Waveform](jkff_behavioral.png)
 
 ---
 

@@ -59,7 +59,8 @@ From `adder4_tb.v`:
 ---
 
 ## 🖼 Waveform
-![4-Bit Full Adder Waveform](fa4bit_waveform.png)
+![4-Bit Full Adder Gatelevel Waveform](adder_gatelevel.png)
+![4-Bit Full Adder Behavioral Waveform](adder_behavioral.png)
 
 ---
 
