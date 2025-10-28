@@ -61,7 +61,7 @@ From `srlatch_tb.v`:
 
 ## 🖼 Waveform
 
-![SR Latch Waveform](srlatch_waveform.png)
+![SR Latch Waveform](srlatchnand.png)
 
 ---
 
