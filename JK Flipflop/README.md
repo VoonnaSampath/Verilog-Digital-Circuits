@@ -26,8 +26,10 @@ The JK flip-flop is a clocked memory device with two inputs (J and K) that can p
 
 ## 📂 Files Included
 
-- `jkff.v` – Verilog design of JK flip-flop  
-- `jkff_tb.v` – Testbench for JK flip-flop  
+- `jkff.v` – Verilog design of JK flip-flop in gate level  
+- `jkff_tb.v` – Testbench for JK flip-flop in gate level
+- `jkff_behav.v` – Verilog design of JK flip-flop in Behavioral mode
+- `jkff_behav_tb.v` – Testbench for JK flip-flop  in Behavioral mode
 - `jkff_waveform.png` – Screenshot of simulation waveform  
 - `README.md` – Documentation for this module  
 
@@ -49,6 +51,21 @@ The JK flip-flop is a clocked memory device with two inputs (J and K) that can p
 | ↑   | 0 | 1 | 0    | 1    |
 | ↑   | 1 | 0 | 1    | 0    |
 | ↑   | 1 | 1 | Toggle | Toggle |
+
+---
+
+### 🧪 Simulated Output (Behavioral Model)
+
+| Time (ns) | CLK | J | K | Q | Description |
+|------------|:---:|:---:|:---:|:---:|----------------------------------|
+| 0  | 0 | 0 | 0 | 0 | Initial state (Hold) |
+| 10 | ↑ | 0 | 1 | 0 | Reset (Q → 0) |
+| 20 | ↑ | 1 | 0 | 1 | Set (Q → 1) |
+| 30 | ↑ | 1 | 1 | 0 | Toggle (Q → 0) |
+| 40 | ↑ | 1 | 1 | 1 | Toggle again (Q → 1) |
+| 50 | ↑ | 0 | 0 | 1 | Hold (Q unchanged) |
+
+> ✅ The **JK Flip-Flop** correctly performs **Hold**, **Reset**, **Set**, and **Toggle** operations as expected on the rising edge of the clock.
 
 ---
 

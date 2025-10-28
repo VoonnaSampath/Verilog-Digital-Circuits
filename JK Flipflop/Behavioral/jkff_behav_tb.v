@@ -1,5 +1,5 @@
 // Testbench for JK Flip-Flop
-`include "jkff.v"
+`include "jkff_behav.v"
 module tb_jk_flip_flop;
     reg J, K, clk;
     wire Q;

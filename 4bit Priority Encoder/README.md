@@ -2,7 +2,7 @@
 
 ## 🧠 Project Overview
 
-This project implements a **4-bit priority encoder** in Verilog using gate-level modeling.  
+This project implements a **4-bit priority encoder** in Verilog using gate-level modeling and behavioral modeling.  
 A priority encoder outputs the binary representation of the **highest-priority active input**. If no input is active, the `valid` signal indicates that the output is invalid.  
 
 The design is tested with a Verilog testbench and observed with waveform simulation.
@@ -26,8 +26,10 @@ The design is tested with a Verilog testbench and observed with waveform simulat
 
 ## 📂 Files Included
 
-- `priorityencoder4bit.v` – Verilog source code of the 4-bit priority encoder  
-- `priorityencoder4bit_tb.v` – Testbench for the priority encoder  
+- `priorityencoder4bit.v` – Verilog source code of the 4-bit priority encoder in gate level
+- `priorityencoder4bit_tb.v` – Testbench for the priority encoder in gate level
+- `4bitpriorityencoder.v` – Verilog source code of the 4-bit priority encoder in behavioral
+- `4bitpriorityencoder_tb.v` – Testbench for the priority encoder in behavioral
 - `priorityencoder_waveform.png` – Screenshot of waveform  
 - `README.md` – Documentation for this module  
 
@@ -47,7 +49,7 @@ valid = i3 + i2 + i1 + i0
 
 ---
 
-## 📊 Test Bench Simulation Output
+## 📊 Test Bench Simulation Output (Gate level)
 
 From `priorityencoder4bit_tb.v`:
 
@@ -58,6 +60,23 @@ From `priorityencoder4bit_tb.v`:
 | 0  | 0  | 1  | x  |  0 |  1 |   1   |
 | 0  | 1  | x  | x  |  1 |  0 |   1   |
 | 1  | x  | x  | x  |  1 |  1 |   1   |
+
+---
+
+### 🧪 Simulated Output (Behavioral Model)
+
+| Input D3 | D2 | D1 | D0 | → | Output Y1 | Y0 | Valid | Description |
+|:---------:|:--:|:--:|:--:|:-:|:----------:|:--:|:------:|:-------------|
+| 0 | 0 | 0 | 0 | → | 0 | 0 | 0 | No valid input (none active) |
+| 0 | 0 | 0 | 1 | → | 0 | 0 | 1 | D0 active → Code = 00 |
+| 0 | 0 | 1 | 0 | → | 0 | 1 | 1 | D1 active → Code = 01 |
+| 0 | 1 | 0 | 0 | → | 1 | 0 | 1 | D2 active → Code = 10 |
+| 1 | 0 | 0 | 0 | → | 1 | 1 | 1 | D3 active → Code = 11 |
+| 1 | 0 | 1 | 0 | → | 1 | 1 | 1 | D3 has higher priority → Code = 11 |
+| 0 | 1 | 1 | 1 | → | 1 | 0 | 1 | D2 has higher priority → Code = 10 |
+| 1 | 1 | 0 | 0 | → | 1 | 1 | 1 | D3 highest priority → Code = 11 |
+
+> ✅ The **4-to-2 Priority Encoder** correctly outputs the binary code of the **highest-priority active input** (D3 > D2 > D1 > D0) and asserts the **Valid** signal when any input is high.
 
 ---
 
