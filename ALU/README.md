@@ -189,11 +189,15 @@ From `alu_tb.v` (simulated using **Synopsys VCS**):
 | 1010 | 0011 | 0 | 11 | ADD | 1101 | 0 |
 | 1111 | 0001 | 1 | 11 | ADD (Carry In) | 0001 | 1 |
 
-#### 🖼 Output Waveform of ALU
+#### 🖼 Output of ALU
 
 ![4-bit ALU Output](images/alu_output.png)
 
 ---
+
+#### 🖼 Output Waveform of ALU
+
+![4-bit ALU Waveform Output](images/alu_waveform.png)
 
 ## 🛠 Tools Used
 
