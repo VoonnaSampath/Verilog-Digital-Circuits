@@ -64,9 +64,9 @@ From `array4x4multiplier_tb.v`:
 
 ---
 
-## 🖼 Waveform
+## 🖼 Output
 
-![4x4 Array Multiplier Waveform](array4x4multiplier_waveform.png)
+![4x4 Array Multiplier](array4x4multiplier.png)
 
 ---
 
