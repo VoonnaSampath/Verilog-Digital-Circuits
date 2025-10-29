@@ -70,9 +70,9 @@ From `mod6_counter_tb.v`:
 
 ---
 
-## 🖼 Waveform
+## 🖼 Output
 
-![MOD-6 Counter Waveform](mod6counter_waveform.png)
+![MOD-6 Counter ](mod6counter.png)
 
 ---
 

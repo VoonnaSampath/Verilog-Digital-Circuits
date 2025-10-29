@@ -59,9 +59,9 @@ From `barrel_shifter_4bit_tb.v`:
 
 ---
 
-## 🖼 Waveform
+## 🖼 Output
 
-![4-bit Barrel Shifter Waveform](barrel_shifter_waveform.png)
+![4-bit Barrel Shifter](barrel_shifter_waveform.png)
 
 ---
 

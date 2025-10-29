@@ -72,9 +72,9 @@ From `mealymoore1101_tb.v` — for the input pattern `"0011011101"`:
 
 ---
 
-## 🖼 Waveform
+## 🖼 Output
 
-![“1101” Sequence Detector Waveform](fsm_1101_waveform.png)
+![“1101” Sequence Detector Waveform](fsm_1101.png)
 
 ---
 
